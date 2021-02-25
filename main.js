@@ -76,6 +76,7 @@
 
   /**
    * Back to top button
+   * test
    */
   let backtotop = select(".back-to-top");
   if (backtotop) {

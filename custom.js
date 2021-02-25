@@ -1,4 +1,5 @@
 clockTime();
+
 setInterval(clockTime, 1000);
 
 function clockTime() {
