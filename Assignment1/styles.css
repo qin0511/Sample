@@ -1,0 +1,50 @@
+body {
+  font-size: 2vw;
+  font-family: "Peddana", serif;
+  color: #515A5A;
+  padding: 15px;
+  height: 95px;
+  position: relative;
+}
+
+.main-container > div {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container p {
+  margin-left: 50px;
+  margin-top: 0;
+  width: 1000px;
+}
+
+.about-me {
+  margin-left: 50px;
+  display: flex;
+}
+
+a {
+  font-size: 2vw;
+  text-transform: uppercase;
+  font-family: "Peddana", serif;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: coral;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
